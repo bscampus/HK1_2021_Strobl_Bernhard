@@ -34,11 +34,31 @@ public class DemoStackApp {
 
     public static String getCategoryName(int categoryID) {
         // TODO: Your implementation
-        return "";
+        switch (categoryID) {
+            case 1:
+                System.out.println("Möbel");
+            case 2:
+                System.out.println("Kleidung");
+            case 3:
+                System.out.println("Sportartikel");
+            case 4:
+                System.out.println("Nahrungsmittel");
+            default:
+                System.out.println("Divers");
+        }
+        return " ";
     }
 
-    public static HashMap<String, Integer> countItemsByCategoryName(Stack products){
+    public static HashMap<String, Integer> countItemsByCategoryName(Stack products) {
         // TODO: Your implementation
         return null;
+
+        /*Stack productsStack = new Stack(new Product[10]);
+
+        while (!productsStack.isEmpty()){
+            if()
+        }
+
+    }*/
     }
 }

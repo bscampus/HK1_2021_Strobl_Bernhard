@@ -1,6 +1,6 @@
 package products;
 
-public class StackGeneric {
+public class StackGeneric<T> {
 
     private Product[] elements;
     private int length;
